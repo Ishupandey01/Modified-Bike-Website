@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore different motorcycle modifications and enhancements to personalize your bike.">
+    <title>Motorcycle Mods - Home</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        /* Reset and basic styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 1.2rem;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #e67e22;
+        }
+
+        section.hero {
+            background: url('https://source.unsplash.com/1600x900/?motorcycle') no-repeat center center/cover;
+            height: 400px;
+            text-align: center;
+            padding-top: 100px;
+            color: rgb(208, 14, 14);
+        }
+
+        section.hero h2 {
+            font-size: 3rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+
+        section.content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 10px;
+            width: 300px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .card h3 {
+            padding: 10px;
+            font-size: 1.5rem;
+            color: #333;
+        }
+
+        .card p {
+            padding: 0 10px 10px;
+            font-size: 1rem;
+            color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer p {
+            font-size: 1rem;
+        }
+
+        /* Mobile responsiveness */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            section.hero h2 {
+                font-size: 2rem;
+            }
+            .card {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Motorcycle Modifications by Ishu Pandey</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="performance.html">Performance</a></li>
+                <li><a href="appearance.html">Appearance</a></li>
+                <li><a href="safety.html">Safety</a></li>
+                <li><a href="accessories.html">Accessories</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Enhance Your Ride with Custom Mods</h2>
+    </section>
+
+    <section class="content">
+        <div class="card">
+            <img src="img1.jpg" alt="Performance Mods">
+            <h3>Performance Mods</h3>
+            <p>Upgrade your bike's speed and power with cutting-edge performance enhancements.</p>
+        </div>
+
+        <div class="card">
+            <img src="img2.jpg" alt="Appearance Mods">
+            <h3>Appearance Mods</h3>
+            <p>Transform your motorcycle's look with stylish design modifications.</p>
+        </div>
+
+        <div class="card">
+            <img src="img 3.jpg" alt="Safety Mods">
+            <h3>Safety Mods</h3>
+            <p>Ensure your ride is safe with advanced safety accessories and features.</p>
+        </div>
+
+        <div class="card">
+            <img src="img 4.jpg" alt="Accessories">
+            <h3>Accessories</h3>
+            <p>Personalize your bike with unique and functional accessories.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Motorcycle Mods. All rights reserved.</p>
+    </footer>
+</body>
+</html>
